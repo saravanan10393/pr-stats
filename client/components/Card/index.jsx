@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { Card } from "@tremor/react";
 
-export default function CardComponent({ reviewerInfo, onClick }) {
+export default function ReviewerInfoCard({ reviewerInfo, onClick }) {
 	const { name, avatarUrl, totalReviewedPr, avgReviewTime } = reviewerInfo;
 
 	return (

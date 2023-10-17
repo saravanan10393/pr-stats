@@ -3,7 +3,7 @@ import Image from "next/image";
 import "tailwindcss/tailwind.css";
 import { useRouter } from "next/navigation";
 
-import { Header, Toolbar, CardComponent } from "../../../components/index";
+import { Header, Toolbar, ReviewerInfoCard } from "../../../components/index";
 
 export default function ReviewersInfo() {
 	const router = useRouter();
@@ -31,7 +31,7 @@ export default function ReviewersInfo() {
 			/>
 			<Toolbar title={"User info"} enableSearch={false} />
 			<div className="h-full overflow-y-auto grid auto-rows-max p-4">
-				<CardComponent
+				<ReviewerInfoCard
 					reviewerInfo={{
 						name: "demo1",
 						avatarUrl: "",

@@ -1,5 +1,5 @@
 import Header from "./header";
 import Toolbar from "./toolbar";
-import CardComponent from "./Card/index.jsx";
+import ReviewerInfoCard from "./Card/index.jsx";
 
-export { Header, Toolbar, CardComponent };
+export { Header, Toolbar, ReviewerInfoCard };

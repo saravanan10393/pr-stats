@@ -4,7 +4,7 @@ import "tailwindcss/tailwind.css";
 import { useRouter } from "next/navigation";
 
 import { MOCK_DATA } from "../mockdata";
-import { Header, Toolbar, CardComponent } from "../../components";
+import { Header, Toolbar, ReviewerInfoCard } from "../../components";
 
 export default function ReviewersList() {
 	const router = useRouter();
@@ -34,7 +34,7 @@ export default function ReviewersList() {
 			/>
 			<div className="h-full overflow-y-auto	grid auto-rows-max p-4">
 				{reviewersList.map((reviewerInfo) => (
-					<CardComponent
+					<ReviewerInfoCard
 						onClick={() => router.push(`./reviewerinfo/${reviewerInfo.id}`)}
 						reviewerInfo={reviewerInfo}
 						key={reviewerInfo.id}
