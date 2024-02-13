@@ -4,9 +4,8 @@ compatibility_date = "2023-09-22"
 
 [[d1_databases]]
 binding = "DB" # i.e. available in your Worker on env.DB
-database_name = "pr-stats"
-database_id = "ab09c936-2c2f-455d-8f28-31b3c2d3a1f5"
-preview_database_id = "local-test-db"
+database_name = "pr-stats-db1"
+database_id = "55bd7508-cec7-41b8-8aee-bd2810b633f7"
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
