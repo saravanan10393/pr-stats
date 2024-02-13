@@ -5,7 +5,7 @@
   "scripts": {
     "deploy": "wrangler deploy",
     "start": "wrangler dev",
-    "setup": "wrangler d1 execute pr-stats --file ./sql/setup.sql --local"
+    "setup": "wrangler d1 execute pr-stats --file ./sql/setup.sql"
   },
   "devDependencies": {
     "wrangler": "^3.13.1"
